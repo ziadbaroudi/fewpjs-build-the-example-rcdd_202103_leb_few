@@ -21,7 +21,8 @@ function like(ev){
   })
   .catch(function(me){
     m.innerText=me;
-    m.className =""
+    m.className ="";
+    m.innerText = error;
     setTimeout(()=>m.className="hidden",3000);
   });
 }
